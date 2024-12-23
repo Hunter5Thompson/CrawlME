@@ -86,7 +86,7 @@ def crawl_and_convert(base_url, output_dir):
 
 # Hauptprogramm
 if __name__ == "__main__":
-    BASE_URL = "https://www.statistik-berlin-brandenburg.de"  # Start-URL
+    BASE_URL = "https://www.ibm.com/granite"  # Start-URL
     OUTPUT_DIR = "output_markdown"  # Ordner für Markdown-Dateien
     
     crawl_and_convert(BASE_URL, OUTPUT_DIR)
